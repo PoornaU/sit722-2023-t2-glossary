@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+
+
+  <body>
+
+    <div style="display: flex; justify-content: space-around; flex-wrap: wrap; max-width: 960px; margin: 10px auto;">
+
+    <h1><%= title %></h1>
+    <p>Welcome to my wesite showing a collection of DevOps terms and their brief descriptions.</p>
+
+    <table>
+      <tr>
+        <th>ID</th>
+        <th>Term</th>
+        <th>Description</th>
+        <th>References</th>
+      </tr>
+      <% glossary.forEach(function(item) { %>
+        <tr>
+          <td><%= item.id %></td>
+          <td><%= item.term %></td>
+          <td><%= item.description %></td>
+          <td><%= item.references %></td>
+        </tr>
+      <% }) %>
+    </table>
+
+    </div>
+
+
+  </body>
+
+
+
+</html>
