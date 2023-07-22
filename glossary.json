@@ -1,5 +1,12 @@
 [
-    {"id": 1, "term": "Term1", "description": "Description1", "references": "Reference1"},
-    {"id": 2, "term": "Term2", "description": "Description2", "references": "Reference2"},
-    {"id": 3, "term": "Term3", "description": "Description3", "references": "Reference3"}
-  ]
+  {"id": 1, "term": "NodeJS", "description": "An open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside a web browser.", "references": "https://nodejs.org/en/about/"},
+  {"id": 2, "term": "Docker", "description": "An open-source platform that uses OS-level virtualization to deliver software in packages called containers.", "references": "https://docs.docker.com/get-started/overview/"},
+  {"id": 3, "term": "Kubernetes", "description": "An open-source container-orchestration system for automating application deployment, scaling, and management.", "references": "https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/"},
+  {"id": 4, "term": "Terraform", "description": "An open-source infrastructure as code software tool that provides a consistent CLI workflow to manage hundreds of cloud services.", "references": "https://www.terraform.io/intro/index.html"},
+  {"id": 5, "term": "Microservices", "description": "An architectural style that structures an application as a collection of services that are highly maintainable and testable.", "references": "https://microservices.io/"},
+  {"id": 6, "term": "gitignore", "description": "A text file that tells Git which files or folders to ignore in a project.", "references": "https://git-scm.com/docs/gitignore"},
+  {"id": 7, "term": "Express", "description": "A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.", "references": "https://expressjs.com/"},
+  {"id": 8, "term": "JavaScript", "description": "A high-level, interpreted programming language that is a core technology of the World Wide Web, alongside HTML and CSS.", "references": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"},
+  {"id": 9, "term": "MongoDB", "description": "A source-available cross-platform document-oriented database program, classified as a NoSQL database program. MongoDB uses JSON-like documents with optional schemas.", "references": "https://www.mongodb.com/what-is-mongodb"},
+  {"id": 10, "term": "CI/CD", "description": "CI/CD bridges the gaps between development and operation activities and teams by enforcing automation in building, testing and deployment of applications.", "references": "https://www.redhat.com/en/topics/devops/what-is-ci-cd"}
+]
