@@ -14,10 +14,6 @@ th {
   color: white;
 }
 
-.description {
-  width: 10000px;  /* or whatever width you prefer */
-  overflow: hidden;
-}
 
 td, th {
   border: 1px solid #ddd;
