@@ -8,9 +8,15 @@ table {
   margin-top: 20px;
 }
 
+
 th {
   background-color: #4CAF50;
   color: white;
+}
+
+.description {
+  width: 10000px;  /* or whatever width you prefer */
+  overflow: hidden;
 }
 
 td, th {
@@ -26,3 +32,4 @@ tr:nth-child(even) {
 tr:hover {
   background-color: #ddd;
 }
+
